@@ -1,0 +1,64 @@
+/* 列表  */
+.thumbnail > a > img {
+    height: 380px; 
+    max-width: 100%; 
+    display: block;
+}
+.cutstr{
+	overflow:hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap; 
+}
+
+/* 详情  */
+.avatar .media-object, .avatar .uface {
+    border-radius: 3px;
+}
+.avatar-48 {
+    width: 48px;
+    height: 48px;
+    border-radius: 2px;
+}
+.markdown {
+    position: relative;
+    line-height: 1.8em;
+    font-size: 14px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    font-family: RobotoDraft,Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif!important;
+}
+.markdown img {
+    max-width: 100%;
+}
+.topic-figure {
+    color: #999;
+    margin-bottom: 2px;
+}
+.topic-figure img {
+    max-width: 500px;
+}
+
+
+.user-card {
+    font: 12px Helvetica,Arial,sans-serif;
+    padding: 15px 15px 5px;
+    background: #f9f9f9;
+	margin-bottom: 15px;
+}
+.user-card .info {
+    overflow: hidden;
+    zoom: 1;
+}
+.user-card ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    line-height: 20px;
+}
+.user-card .pic {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-size: 0;
+}
+
